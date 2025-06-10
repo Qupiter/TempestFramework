@@ -1,0 +1,53 @@
+# Composer dependencies
+/vendor/
+
+# Composer PHAR
+/composer.phar
+
+# Ignore environment files containing sensitive data
+.env
+.env.local
+.env.*.local
+
+# Cache and logs
+/cache/
+logs/
+*.log
+
+# PHPUnit test result cache
+.phpunit.result.cache
+
+# Ignore IDE/editor folders and files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build and deployment directories
+/build/
+dist/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore PHPStorm specific files
+/.phpstorm.meta.php
+
+# Ignore coverage reports
+coverage/
+
+# Ignore node_modules if using Node tools in the project
+node_modules/
+
+# Ignore static analysis tool caches (e.g., PHPStan, Psalm)
+.phpstan/
+.psalm/
+
+# Ignore generated files by Laravel or other frameworks (adjust as needed)
+/bootstrap/cache/
+/storage/

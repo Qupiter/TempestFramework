@@ -1,0 +1,25 @@
+{
+  "name": "qup/framework",
+  "type": "project",
+  "description": "Test framework. Learning framework components",
+  "keywords": ["laravel", "framework"],
+  "license": "MIT",
+  "require": {
+    "php": "^8.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5",
+    "larapack/dd": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Qup\\": "src/",
+      "App\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}

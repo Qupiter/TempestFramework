@@ -31,7 +31,5 @@ class TestCase  extends \PHPUnit\Framework\TestCase
                 HomeController::class
             ]
         ));
-
     }
-
 }
